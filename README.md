@@ -29,7 +29,7 @@ gantt
     Final Josue    : 2024-05-27  , 12d
 
     section Ingrid
-     ETL           :a5, 2024-04-20, 4d
+    KPI's          :a5, 2024-04-01, 4d
     Task Ingrid    :after a5 + 2d, 20d
     Final Ingrid    : 2024-06-01  , 12d
 
