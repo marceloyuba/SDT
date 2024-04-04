@@ -10,26 +10,28 @@
 gantt
     title Semana 1
 
+ section Cristian
+    DataWarehouse      :a1, 2024-04-01, 4d
+    Docs               :after a1, 2024-04-03, 3d
+
+
   section Elizabeth
-    ETL           :a1, 2024-04-01, 4d
-    ETL Doc    :after a1, 2024-04-03, 3d
+    ETL           :a2, 2024-04-01, 4d
+    ETL Doc    :after a2, 2024-04-03, 3d
 
-    section Marcelo
-    EDA           :a2, 2024-04-01, 4d
-    EDA Doc       :after a2, 2024-04-03, 3d
+section Ingrid
+    KPI's          :a3, 2024-04-01, 4d
+    Doc KPI's       :after a3,2024-04-03, 3d
 
-    section Cristian
-    DataWarehouse      :a3, 2024-04-01, 4d
-    Docs               :after a3, 2024-04-03, 3d
-    
-    section Josue
+section Josue
      ML           :a4, 2024-04-01, 4d
     ML Doc        :after a4,2024-04-03, 3d
+
+section Marcelo
+    EDA           :a5, 2024-04-01, 4d
+    EDA Doc       :after a5, 2024-04-03, 3d
     
 
-    section Ingrid
-    KPI's          :a5, 2024-04-01, 4d
-    Doc KPI's       :after a5,2024-04-03, 3d
    
 
 ```
