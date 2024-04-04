@@ -12,11 +12,11 @@ gantt
 
   section Elizabeth
     ETL           :a1, 2024-04-01, 4d
-    ETL Doc    :after a1, 2024-04-03, 2d
+    ETL Doc    :after a1, 2024-04-03, 3d
 
     section Marcelo
     EDA           :a2, 2024-04-01, 4d
-    EDA Doc       :2024-04-03, 2d
+    EDA Doc       :2024-04-03, 3d
 
     section Cristian
      ETL           :a3, 2024-04-10, 4d
@@ -30,7 +30,7 @@ gantt
 
     section Ingrid
     KPI's          :a5, 2024-04-01, 4d
-    Task Ingrid    :after a5 + 2d, 20d
+    Doc KPI's       :2024-04-03, 3d
     Final Ingrid    : 2024-06-01  , 12d
 
 
