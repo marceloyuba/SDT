@@ -19,11 +19,11 @@ gantt
     EDA Doc       :2024-04-03, 3d
 
     section Cristian
-    DataWarehouse      :a3, 2024-04-10, 4d
+    DataWarehouse      :a3, 2024-04-01, 4d
     Docs               :2024-04-03, 3d
     
     section Josue
-     ML           :a4, 2024-04-15, 4d
+     ML           :a4, 2024-04-01, 4d
     ML Doc        :2024-04-03, 3d
     
 
