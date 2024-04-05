@@ -24,7 +24,7 @@ gantt
     Future task in critical line        :crit, 5d
     Create tests for renderer           :2d
     Add to mermaid                      :until isadded
-    Functionality added                 :milestone, isadded, 2024-04-25, 0d
+    Subir datasets                      :milestone, isadded, 2024-04-04, 0d
 
     section Documentación
     Describe gantt syntax               :active, a1, after des1, 3d
