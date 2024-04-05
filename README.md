@@ -44,7 +44,12 @@ gantt
 ```
 </details>
 
-
+<style>
+/* Estilo para cambiar el color de las letras */
+.mermaid {
+    color: red; /* Cambiar a cualquier color deseado */
+}
+</style>
 
 <details>
  
