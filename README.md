@@ -1,4 +1,4 @@
-# FinalProject
+
 ![rendered image description](imagenes/SDTLogo.png)
 
 <details>
@@ -49,19 +49,10 @@ gantt
 
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
-    title       Ejemplo de Diagrama de Gantt
+    apple :a, 2017-07-20, 1w
+    banana :crit, b, 2017-07-23, 1d
+    cherry :active, c, after b a, 1d
+    kiwi   :d, 2017-07-20, until b c
 
-    section Tareas Preparatorias
-    Investigación              :active, investigacion, 2024-04-01, 7d
-    Preparación de materiales  :active, preparacion, after investigacion, 5d
-    Revisión de preparación    :active, revision, after preparacion, 3d
-
-    section Tareas Principales
-    Desarrollo del proyecto    :active, desarrollo, after revision, 14d
-    Preparación de la presentación:active, preparacion_presentacion, after desarrollo, 7d
-    Presentación del proyecto  :active, presentacion, after preparacion_presentacion, 1d
-    Feedback y ajustes          :active, feedback, after presentacion, 3d
-    Preparación final de materiales: active, preparacion_final, until presentacion
 ```
 </details>
