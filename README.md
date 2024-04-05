@@ -38,7 +38,11 @@ gantt
     Documentacion ML             :active, a1, after des1, 1d
     
     section Ensayo DEMO
-    Ensayo DEMO 1                       :active, after 2024-04-05, 5h
+    Ensayo DEMO 1                       :active, 2024-04-05, 5h
+    Ensayo DEMO 2                       :active, 2024-04-11, 5h
+    Ensayo DEMO 3                      :active, 2024-04-19, 5h
+    Ensayo DEMO 4                      :active, 2024-04-26, 5h
+    Ensayo DEMO Final                  :active, after a1, 5h
 
     section Daily
     Meet                               :active,a1, 2024-04-01, 2024-05-02
