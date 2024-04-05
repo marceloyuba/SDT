@@ -32,11 +32,11 @@ gantt
     Add another diagram to demo page    :doc1, after a1  , 48h
 
     section Ensayo DEMO
-    Ensayo DEMO 1                       :2024-04-05, 0d
+    Ensayo DEMO 1                       :done, after 2024-04-05, 0d
 
     section Daily
-    Meet               :active, a1, 2024-04-01, 25d
-    DEMO 1                             :after Meet, 2024-04-05, 0d
+    Meet                               :active, a1, 2024-04-01, 25d
+    DEMO 1                             :after Meet, a2, 2024-04-05, 0d
     DEMO 2                             :after Meet, 2024-04-12, 0d
     DEMO 3                             :after DEMO 2, 2024-04-19, 0d
 
