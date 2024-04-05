@@ -45,6 +45,4 @@ gantt
 ```
 </details>
 
-<h1>
-Holaaaa
-</h1>
+
