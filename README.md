@@ -1,5 +1,5 @@
 # FinalProject
-![rendered image description](Imagenes/NYC.jpg)
+![rendered image description](imagenes/SDTLogo.png)
 
 <details>
   <summary>diagram source</summary>
