@@ -6,7 +6,7 @@
 
 ```mermaid
 gantt
-    tickInterval 1day
+   
     dateFormat  YYYY-MM-DD
     title       Diagrama de Gantt del Proyecto Final
     excludes    weekends
@@ -51,7 +51,10 @@ gantt
 
 ```mermaid
 gantt
+    
     tickInterval 1week
+    weekday monday
+
     dateFormat  YYYY-MM-DD
     title       Ejemplo de Diagrama de Gantt con Intervalo de Marcas de Tiempo de un Día
 
