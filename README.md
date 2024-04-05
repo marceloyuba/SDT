@@ -6,6 +6,7 @@
 
 ```mermaid
 gantt
+    tickInterval 1day
     dateFormat  YYYY-MM-DD
     title       Diagrama de Gantt del Proyecto Final
     excludes    weekends
