@@ -36,7 +36,7 @@ gantt
 
     section Daily
     Meet                               :active, a1, 2024-04-01, 25d
-    DEMO 1                             :after Meet, a2, 2024-04-05, 0d
+    DEMO 1                             :after a1, 2024-04-05, 0d
     DEMO 2                             :after Meet, 2024-04-12, 0d
     DEMO 3                             :after DEMO 2, 2024-04-19, 0d
 
