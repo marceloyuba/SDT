@@ -50,7 +50,7 @@ gantt
 
 ```mermaid
 gantt
-    tickInterval 1day
+    tickInterval 1week
     dateFormat  YYYY-MM-DD
     title       Ejemplo de Diagrama de Gantt con Intervalo de Marcas de Tiempo de un Día
 
