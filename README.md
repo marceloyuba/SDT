@@ -61,5 +61,5 @@ gantt
     Tarea 4      :active, task4, after task3, 4d
     Tarea 5      :active, task5, after task4, 5d
 
-    ```
+```
 </details>
