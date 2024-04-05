@@ -43,16 +43,21 @@ gantt
 ```
 </details>
 
-
 <details>
  
 
 ```mermaid
 gantt
-    apple :a, 2017-07-20, 1w
-    banana :crit, b, 2017-07-23, 1d
-    cherry :active, c, after b a, 1d
-    kiwi   :d, 2017-07-20, until b c
+    tickInterval 1day
+    dateFormat  YYYY-MM-DD
+    title       Ejemplo de Diagrama de Gantt con Intervalo de Marcas de Tiempo de un Día
 
-```
+    section Tareas
+    Tarea 1      :done, task1, 2024-04-01, 2024-04-03
+    Tarea 2      :done, task2, after task1, 2d
+    Tarea 3      :active, task3, after task2, 3d
+    Tarea 4      :active, task4, after task3, 4d
+    Tarea 5      :active, task5, after task4, 5d
+
+    ```
 </details>
