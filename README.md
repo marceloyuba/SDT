@@ -13,8 +13,8 @@ gantt
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
     section Tareas
-    ETL                       :    des1, 2024-04-01,2024-04-04
-    Active task               :active,  des2, 2024-04-09, 3d
+    ETL                       :done   des1, 2024-04-01,4d
+    EDA                       :done,  des1, 2024-04-01,4d
     Future task               :         des3, after des2, 5d
     Future task2              :         des4, after des3, 5d
 
