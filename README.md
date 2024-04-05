@@ -44,12 +44,20 @@ gantt
 ```
 </details>
 
-<style>
-/* Estilo para cambiar el color de las letras */
-.mermaid {
-    color: red; /* Cambiar a cualquier color deseado */
-}
-</style>
+<details>
+ 
+
+```mermaid
+gantt
+    dateFormat HH:mm
+    axisFormat %H:%M
+    Definir roles milestone : milestone, m1, 17:49, 2m
+    Task A : 10m
+    Task B : 5m
+    Final milestone : milestone, m2, 18:08, 4m
+
+```
+</details>
 
 <details>
  
