@@ -18,13 +18,13 @@ gantt
     KPI's                     :done,   des3,  2024-04-01, 3d
     Data warehouse            :done,   des4, 2024-04-01, 3d
     ML                        :done, des5, 2024-04-01, 3d               
-
+    ETL completo               :active,    des4, 2024-04-08, 5d
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
     PPT D2                              :crit,  2024-04-11,24h
     PPT D3                              :crit,  2024-04-19,24h
     PPT D4                              :crit,  2024-04-26,24h
-    PPT DFinal                              :crit,  after a1,24h
+    PPT DFinal                          :crit,  after a1,24h
     Definir roles                       :milestone, isadded, 2024-04-01, 0d
     Descarga datasets                   :milestone, isadded, 2024-04-01, 24h
     Definir DataWarehouse               :milestone,isadded, 2024-04-01, 24h
