@@ -1,12 +1,11 @@
 
 ![rendered image description](imagenes/SDTLogo.png)
  
-
+### Diagrama de gantt / organizacion de tareas
 ```mermaid
 gantt
    
     dateFormat  YYYY-MM-DD
-    title       Diagrama de Gantt Consultoría SDT
     excludes     saturday sunday
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
