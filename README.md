@@ -1,7 +1,5 @@
 
 ![rendered image description](imagenes/SDTLogo.png)
-
-<details>
  
 
 ```mermaid
@@ -37,7 +35,7 @@ gantt
     Implementacion de los endpoints     :active,    des19, 2024-04-08, 4d
 
     section Tareas semana 3           
-    Diseño de Reportes/Dashboards  :active,    des20, 2024-04-15, 3d
+    Diseño Dashboards              :active,    des20, 2024-04-15, 3d
     KPIs                           :active,    des21, 2024-04-15, 3d
     Modelos de ML                   :active,    des22, 2024-04-15, 3d
     Modelo de ML en producción      :active,    des23, 2024-04-15, 3d
@@ -75,7 +73,7 @@ gantt
     DEMO Final                             :active, 2024-04-19, 1h
    
 ```
-</details>
+
 
 
  
