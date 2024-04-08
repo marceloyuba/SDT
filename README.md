@@ -47,7 +47,7 @@ gantt
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
     PPT D2                              :crit,  2024-04-11,24h
-    PPT DFinal                          :crit,  2024-04-19,24h
+    Precentacion Final                          :crit,  2024-04-19,24h
     Definir roles                       :milestone, isadded, 2024-04-01, 0d
     Descarga datasets                   :milestone, isadded, 2024-04-01, 24h
     Definir DataWarehouse               :milestone,isadded, 2024-04-01, 24h
