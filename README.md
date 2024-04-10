@@ -43,7 +43,7 @@
 | Store_and_fwd_flag      | Marca de almacenamiento y reenvío                      | object       | Cualitativa      |
 | Payment_type            | Forma de pago                                          | float        | Cualitativa      |
 | Fare_amount             | Tarifa de tiempo y distancia calculada                 | float        | Cuantitativa     |
-| Extra                   | Recargos por hora pico y por noche                    | float        | Cuantitativa     |
+| Extra                   | Recargos por hora pico y por noche                     | float        | Cuantitativa     |
 | MTA_tax                 | Impuesto MTA que se cobra según la tarifa              | float        | Cuantitativa     |
 | Improvement_surcharge   | Recargo por mejora                                     | float        | Cuantitativa     |
 | Tip_amount              | Propinas                                               | float        | Cuantitativa     |
@@ -53,6 +53,37 @@
 | Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
 | Trip_type               | Identifica si el viaje fue en calle o asignado         | float        | Cualitativa      |
 
+
+### green/yellow enviroment 2018-2021
+
+| Nombre de la Columna    | Descripción                        | Tipo de dato  | Tipo de variable | Renombrada | Nombre original       |
+|-------------------------|------------------------------------|---------------|------------------|------------|-----------------------|
+| VendorID                | Eliminada                          | -             | -                | Si         | Vendor ID             |
+| anio                    | Año de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
+| mes                     | Mes de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
+| dia_inicio              | Día en que inicio el viaje         | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
+| hora_inicio             | Hora en que inicio el viaje        | Datetime      | cuantitativa     | Si         | tpep_pickup_datetime  |
+| dia_fin                 | Día en que finalizó el viaje       | int           | cuantitativa     | Si         | tpep_dropoff_datetime |
+| hora_fin                | Hora en que finalizó el viaje      | Datetime      | cuantitativa     | Si         | tpep_dropoff_datetime |
+| pax                     | Número de pasajeros                | int           | cuantitativa     | Si         | Passenger_count       |
+| distancia_viaje         | Distancia que se recorrió en el viaje | float      | cuantitativa     | Si         | Trip_distance         |
+| ubicacion_inicio        | Ubicación en que se inició el viaje | int          | cualitativa      | Si         | PULocationID          |
+| ubicación_fin           | Ubicación en que finalizó el viaje  | int          | cualitativa      | Si         | DOLocationID          |
+| tipo_tarifa             | Eliminada                          | -             | -                | No         | RateCodeID            |
+| conexión_servidor       | Eliminada                          | -             | -                | No         | Store_and_fwd_flag    |
+| forma_pago              | Eliminada                          | -             | -                | No         | Payment_type          |
+| viaje_bruto             | Eliminada                          | -             | -                | No         | Fare_amount           |
+| extra                   | Eliminada                          | -             | -                | No         | Extra                 |
+| impuesto_mta            | Eliminada                          | -             | -                | No         | MTA_tax               |
+| cargo_mejora            | Eliminada                          | -             | -                | No         | Improvement_surcharge |
+| propina                 | Eliminada                          | -             | -                | No         | Tip_amount            |
+| peajes                  | Eliminada                          | -             | -                | No         | Tolls_amount          |
+| monto_total             | Eliminada                          | -             | -                | No         | Total_amount          |
+| tipo_inicio             | Eliminada                          | -             | -                | No         | Trip_type             |
+| cargo_congestion        | Eliminada                          | -             | -                | No         | Congestion_Surcharge  |
+| tipo_color              | Color de taxi                      | str           | cualitativa      | Agregada   | type_color            |
+| total_tiempo            | Tiempo que duró el viaje           | str           | cuantitativa     | Agregada   | total_tiempo          |
+| airport_fee             | Eliminada                          | -             | -                | No         | airport_fee           |
 
 
 ### Diagrama de gantt / organizacion de tareas
