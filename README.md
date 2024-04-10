@@ -121,6 +121,23 @@
 | total_tiempo           | Tiempo que duró el viaje                             | str           | Cuantitativa     | Agregada   | total_tiempo          |
 
 
+### Diccionario de datos approvedModels
+
+| Nombre de la columna | Descripción                          | Tipo de dato | Tipo de variable |
+|----------------------|--------------------------------------|--------------|------------------|
+| modelosId PK         | Identificador del modelo             | int          | Cualitativa      |
+| modelos              | Modelo del auto                      | string       | Cualitativa      |
+| 2017                 | Año                                  | int          | Cuantitativa     |
+| 2018                 | Año                                  | int          | Cuantitativa     |
+| 2019                 | Año                                  | int          | Cuantitativa     |
+| 2020                 | Año                                  | int          | Cuantitativa     |
+| 2021                 | Año                                  | int          | Cuantitativa     |
+| 2022                 | Año                                  | float        | Cuantitativa     |
+| 2023                 | Año                                  | int          | Cuantitativa     |
+| tipo_color PK        | Color                                | string       | Cualitativa      |
+| tipo                 | Tipo de auto (van, sedan, etc)       | string       | Cualitativa      |
+| pax                  | Cantidad de pasajeros                | int          | Cuantitativa     |
+
 
 ### Diagrama de gantt / organizacion de tareas
 ```mermaid
