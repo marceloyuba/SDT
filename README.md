@@ -4,32 +4,8 @@
 # Diccionarios de datos
 
 ## Diccionarios de datos originales
-### green  2018-2021 orginal
 
-| Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
-|-------------------------|--------------------------------------------------------|--------------|------------------|
-| Vendor ID               | Identificador de proveedor                             | int          | Cualitativa      |
-| tpep_pickup_datetime    | Fecha inicio del viaje                                 | datetime     | Cuantitativa     |
-| tpep_dropoff_datetime   | Fecha fin del viaje                                    | datetime     | Cuantitativa     |
-| Passenger_count         | Número de pasajeros                                    | float        | Cuantitativa     |
-| Trip_distance           | Distancia del viaje                                    | float        | Cuantitativa     |
-| PULocationID            | Identificador de la ubicación de inicio                | int          | Cualitativa      |
-| DOLocationID            | Identificador de la ubicación final                    | int          | Cualitativa      |
-| RateCodeID              | Identificador de tarifa final vigente al finalizar el viaje | float   | Cualitativa      |
-| Store_and_fwd_flag      | Marca de almacenamiento y reenvío                      | object       | Cualitativa      |
-| Payment_type            | Forma de pago                                          | float        | Cualitativa      |
-| Fare_amount             | Tarifa de tiempo y distancia calculada                 | float        | Cuantitativa     |
-| Extra                   | Recargos por hora pico y por noche                    | float        | Cuantitativa     |
-| MTA_tax                 | Impuesto MTA que se cobra según la tarifa              | float        | Cuantitativa     |
-| Improvement_surcharge   | Recargo por mejora                                     | float        | Cuantitativa     |
-| Tip_amount              | Propinas                                               | float        | Cuantitativa     |
-| Tolls_amount            | Importe total de todos los peajes                      | float        | Cuantitativa     |
-| Total_amount            | Importe total cobrado a los pasajeros                  | float        | Cuantitativa     |
-| Trip_type               | Identifica si el viaje fue en calle o asignado         | float        | Cualitativa      |
-| Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
-
-
-### yellow 2018-2021 original
+### green/yellow 2018-2021 original
 
 | Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
 |-------------------------|--------------------------------------------------------|--------------|------------------|
@@ -53,6 +29,30 @@
 | airport_fee             | Importe por recoger en aeropuerto                      | float        | Cualitativa      |
 | Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
 | Trip_type               | Identifica si el viaje fue en calle o asignado         | float        | Cualitativa      |
+
+### green/yellow 2022 - 2023 Original
+| Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
+|-------------------------|--------------------------------------------------------|--------------|------------------|
+| Vendor ID               | Identificador de proveedor                             | int          | Cualitativa      |
+| tpep_pickup_datetime    | Fecha inicio del viaje                                 | datetime     | Cuantitativa     |
+| tpep_dropoff_datetime   | Fecha fin del viaje                                    | datetime     | Cuantitativa     |
+| Passenger_count         | Número de pasajeros                                    | float        | Cuantitativa     |
+| Trip_distance           | Distancia del viaje                                    | float        | Cuantitativa     |
+| PULocationID            | Identificador de la ubicación de inicio                | int          | Cualitativa      |
+| DOLocationID            | Identificador de la ubicación final                    | int          | Cualitativa      |
+| RateCodeID              | Identificador de tarifa final vigente al finalizar el viaje | float   | Cualitativa      |
+| Store_and_fwd_flag      | Marca de almacenamiento y reenvío                      | object       | Cualitativa      |
+| Payment_type            | Forma de pago                                          | float        | Cualitativa      |
+| Fare_amount             | Tarifa de tiempo y distancia calculada                 | float        | Cuantitativa     |
+| Extra                   | Recargos por hora pico y por noche                    | float        | Cuantitativa     |
+| MTA_tax                 | Impuesto MTA que se cobra según la tarifa              | float        | Cuantitativa     |
+| Improvement_surcharge   | Recargo por mejora                                     | float        | Cuantitativa     |
+| Tip_amount              | Propinas                                               | float        | Cuantitativa     |
+| Tolls_amount            | Importe total de todos los pasajes                      | float        | Cuantitativa     |
+| Total_amount            | Importe total cobrado a los pasajeros                  | float        | Cuantitativa     |
+| airport_fee             | Importe por recoger en aeropuerto                      | float        | Cualitativa      |
+| Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
+| Trip_type               | Identifica si el viaje fue en calle o se asignó        | float        | Cualitativa      |
 
 
 ## Diccionario de datos una vez que se realizó el proceso de ETL
