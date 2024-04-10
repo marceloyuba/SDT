@@ -55,6 +55,8 @@
 | Trip_type               | Identifica si el viaje fue en calle o asignado         | float        | Cualitativa      |
 
 
+## Diccionario de datos una vez que se realizó el proceso de ETL
+
 ### green/yellow enviroment 2018-2021
 
 | Nombre de la Columna    | Descripción                        | Tipo de dato  | Tipo de variable | Renombrada | Nombre original       |
