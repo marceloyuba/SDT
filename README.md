@@ -1,9 +1,9 @@
 
 ![rendered image description](imagenes/SDTLogo.png)
 
-### Diccionarios de datos
+## Diccionarios de datos
 
-## green  2018-2021 orginal
+### green  2018-2021 orginal
 
 | Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
 |-------------------------|--------------------------------------------------------|--------------|------------------|
