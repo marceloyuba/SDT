@@ -3,6 +3,7 @@
 
 ### Diccionarios de datos
 
+## green  2018-2021 orginal
 | Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
 |-------------------------|--------------------------------------------------------|--------------|------------------|
 | Vendor ID               | Identificador de proveedor                             | int          | Cualitativa      |
