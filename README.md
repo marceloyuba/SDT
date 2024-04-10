@@ -118,7 +118,7 @@
 | cargo_congestion       | Monto total cobrado por congestión en NY             | float        | Cuantitativa     | Si         | Congestion_Surcharge  |
 | cargo_aeropuerto       | Importe por recoger en aeropuerto                    | float        | Cuantitativa     | Si         | Airport_fee           |
 | tipo_color             | Asigna el color del taxi                             | str          | Cualitativa      | Agregada   | type_color            |
-| total_tiempo           | Tiempo que duró el viaje                             | -            | Cuantitativa     | Agregada   | total_tiempo          |
+| total_tiempo           | Tiempo que duró el viaje                             | str           | Cuantitativa     | Agregada   | total_tiempo          |
 
 
 
