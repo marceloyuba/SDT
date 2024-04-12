@@ -90,7 +90,7 @@
 
 | Nombre de la Columna   | Descripción                                           | Tipo de dato | Tipo de variable | Renombrada | Nombre original       |
 |------------------------|-------------------------------------------------------|--------------|------------------|------------|-----------------------|
-| Vendor ID              | Eliminada                                             | -            | -                | Si         | Vendor ID             |
+| Vendor ID              | Eliminada                                             | -            | -                | No         | Vendor ID             |
 | anio                   | Año de viaje                                          | int          | Cuantitativa     | Si         | tpep_pickup_datetime  |
 | mes                    | Mes de viaje                                          | int          | Cuantitativa     | Si         | tpep_pickup_datetime  |
 | dia_inicio             | Día en que inicio el viaje                            | int          | Cuantitativa     | Si         | tpep_pickup_datetime  |
@@ -102,7 +102,7 @@
 | ubicacion_inicio       | Ubicación en que se inició el viaje                  | int          | Cualitativa      | Si         | PULocationID          |
 | ubicación_fin          | Ubicación en que finalizó el viaje                   | int          | Cualitativa      | Si         | DOLocationID          |
 | tipo_tarifa            | Identificador de tarifa final vigente al finalizar el viaje | int     | Cualitativa      | Si         | RateCodeID            |
-| conexión_servidor      | -                                                     | str          | Cualitativa      | Si         | Store_and_fwd_flag    |
+| conexión_servidor      | -                                                     | str          | Cualitativa      | No        | Store_and_fwd_flag    |
 | forma_pago             | Forma de pago                                         | int          | Cualitativa      | Si         | Payment_type          |
 | viaje_bruto            | Tarifa de tiempo y distancia calculada               | float        | Cuantitativa     | Si         | Fare_amount           |
 | extra                  | Recargos por hora pico y por noche                   | float        | Cuantitativa     | Si         | Extra                 |
