@@ -9,7 +9,7 @@ Somos **Strategic Data Transform**, una consultora empresarial, que presta servi
 En este caso, el proyecto está orientado a realizar un estudio de viabilidad para nuestro cliente Greyhound, quién se encuentra laborando en el sector del transporte con micros de media y larga distancia, y ahora quiere incursionar en el sector de trasnporte de pasajeros en la ciudad de Nueva York con autos que tengan un bajo impacto ambietal.
 
 Greyhound quiere determinar que tipo de vehículo es el más óptimo para cada destino de viaje y asimismo contar con un estudio que le muestre si la viabilidad de realizar el proyecto con sus requerimientos es positiva, lo que conlleva a que nosotros como consultora hagamos diversos análisis de rentabilidad, impacto ambiental y viabilidad en el mercado. 
-Para poder realizar el estudio se tomo como fuente de datos la siguiente página web: [Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/index.page)
+Para poder realizar el estudio se tomó como fuente de datos la siguiente página web: [Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/index.page)
 
 Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
 
