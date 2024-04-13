@@ -1,7 +1,5 @@
 
-![rendered image description](imagenes/SDTLogo.png)
-
-# <h1 align="center"> **NYC AUTOS** <br> Proyecto Final </h1>
+![rendered image description](imagenes/muestra-readme.png)
 
 ## Contexto del Proyecto
 Somos **Strategic Data Transform**, una consultora empresarial, que presta servicios de consultoría tecnológica en el área de Data Science a empresas que quieran cumplir sus objetivos de éxito a partir de los datos.
