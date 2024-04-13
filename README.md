@@ -1,5 +1,5 @@
 
-![rendered image description](imagenes/muestra-readme.png)
+![rendered image description](imagenes/muestra-readme.jpg)
 
 ## Contexto del Proyecto
 Somos **Strategic Data Transform**, una consultora empresarial, que presta servicios de consultoría tecnológica en el área de Data Science a empresas que quieran cumplir sus objetivos de éxito a partir de los datos.
