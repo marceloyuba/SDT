@@ -11,10 +11,10 @@ En este caso, el proyecto está orientado a realizar un estudio de viabilidad pa
 Greyhound quiere determinar que tipo de vehículo es el más óptimo para cada destino de viaje y asimismo contar con un estudio que le muestre si la viabilidad de realizar el proyecto con sus requerimientos es positiva, lo que conlleva a que nosotros como consultora hagamos diversos análisis de rentabilidad, impacto ambiental y viabilidad en el mercado. 
 Para poder realizar el estudio se tomó como fuente de datos la siguiente página web: [Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/index.page)
 
-Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
+Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
 
-- Elizabeth Torres - Data Engineer
 - Cristian Fontanilla - Data Engineer
+- Elizabeth Torres - Data Engineer
 - Ingrid Barrios - Data Analyst
 - Marcelo Yuba - Data Analyst
 - Josue Mora - Data Scientist
