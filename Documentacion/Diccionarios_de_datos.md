@@ -155,7 +155,7 @@
 | tipo_conector FK     | Tipo de conector para carga electrica       | string       | Cualitativa      |
 | precio base          | Precio del vehiculo 0km en su precio base   | float        | Cuantitativa     |
 
-### Tabla economiaAutos
+### Tabla cargaElectrica
 
 | Nombre de la columna | Descripción                                     | Tipo de dato | Tipo de variable |
 |----------------------|-------------------------------------------------|--------------|------------------|
