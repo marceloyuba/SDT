@@ -1,7 +1,7 @@
 
-![rendered image description](imagenes/SDTLogo.png)
+![rendered image description](imagenes/muestra-readme.jpg)
 
-# <h1 align="center"> **NYC AUTOS** <br> Proyecto Final </h1>
+# <h1 align="center"> **NYC Autos Greyhound** <br> Proyecto Final </h1>
 
 ## ¿Quiénes Somos?
 
@@ -20,10 +20,10 @@ En este proyecto también se analizará el comportamiento frente a sus competido
 
 Para poder realizar el estudio se tomo como fuente de datos la siguiente página web: [Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/index.page)
 
-Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
+Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
 
-- Elizabeth Torres - Data Engineer
 - Cristian Fontanilla - Data Engineer
+- Elizabeth Torres - Data Engineer
 - Ingrid Barrios - Data Analyst
 - Marcelo Yuba - Data Analyst
 - Josue Mora - Data Scientist
