@@ -1,5 +1,5 @@
 
-![rendered image description](imagenes/muestra-readme.jpg)
+![rendered image description](imagenes/SDTLogo.png)
 
 # <h1 align="center"> **NYC Autos Greyhound** <br> Proyecto Final </h1>
 
@@ -12,6 +12,7 @@ Somos **Strategic Data Transform**, una consultora empresarial, que presta servi
 El proyecto esta orientado a realizar un estudio de viabilidad para nuestro cliente Greyhound, quién se encuentra laborando en el sector del transporte con micros de media y larga distancia, y ahora quiere incursionar en el sector de trasnporte de pasajeros en la ciudad de Nueva York con autos que tengan un bajo impacto ambietal.
 
 <div align="center">
+
 ![Logo_Greyhound](imagenes/logo_greyhound.png)
 </div>
 
