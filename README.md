@@ -42,21 +42,24 @@ Estudiar la viabilidad de incorporar vehículos eléctricos de transporte de pas
 
 En este primer sprint se plantearon los siguientes KPIs:
  
-**-Para la viabilidad se propone:**
+**Para la viabilidad se propone:**
 
 **- Eficiencia operativa: Distancia recorrida por periodo de tiempo**
+
 Midiendo la distancia recorrida por los autos estudiados, podremos ver el comportamiento operativo, si aumenta o reduce la operación, así como también se puede ver que tanta es la acogida en el mercado.
 Este KPI es un indicativo de la viabilidad del proyecto, ya que a más distancia de actividad va a ser más sostenible el negocio en el tiempo.
 
 **Para la contaminación o impacto ambiental se propone:**
 
 **- Emisiones de CO2**
+
 Podemos medir el impacto en la calidad del aire de los autos con los que operará Greyhound midiendo las emisiones de CO2, donde se pueden hacer análisis comparando las emisiones de los vehículos tradicionales de combustión interna, en periodos de tiempo diferentes.
 Este KPI se formula alineado con las prioridades del cliente de querer tener un menor impacto ambiental.
 
 **Para la aceptación en el mercado se propone medir:**
 
 **- Utilización de vehículos eléctricos por zonas: cantiad de viajes por zona**
+
 Medir la utilización de los vehículos eléctricos y observar su comportamiento a través del tiempo, nos ayuda a identificar patrones de preferencia de estos vehículos en las diferentes zonas de la ciudad. 
 Con este KPI podemos plantear una meta de aumento en la utilización por periodo de tiempo, teniendo en cuenta la cantidad de viajes realizados totales en determinada zona.
 
