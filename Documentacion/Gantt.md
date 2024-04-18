@@ -7,13 +7,16 @@ gantt
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
     section Cristian
-    ETL                       :done,    des1, 2024-04-01, 3d
+    
     EDA                       :done,  des2, 2024-04-01, 3d
     KPI's                     :done,   des3,  2024-04-01, 3d
     Data warehouse            :done,   des4, 2024-04-01, 3d
+    Documentacion DataWarehouse       :done, a1, after des4, 10d
     ML                        :done, des5, 2024-04-01, 3d               
 
-    section Elizabeth            
+    section Elizabeth
+
+    ETL                       :done,    des1, 2024-04-01, 3d 
     ETL completo               :active,    des6, 2024-04-08, 4d
     Implementacion DW         :active,    des7, 2024-04-08, 4d
     Pipeline ETL               :active,    des8, 2024-04-08, 4d
