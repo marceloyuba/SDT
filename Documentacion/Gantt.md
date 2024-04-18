@@ -8,15 +8,16 @@ gantt
 
     section Cristian
     
-    Data warehouse            :done,   des4, 2024-04-01, 3d
+    Data warehouse            :  des4, 2024-04-01, 3d
     Automatización             :active,    des11, 2024-04-08, 4d
-    Documentacion DataWarehouse       : a1, after des4, 3d
+    Documentacion DataWarehouse       : a1, after des4, 5d
               
 
     section Elizabeth
 
-    ETL                       :done,    des1, 2024-04-01, 3d 
+    ETL                       :    des1, 2024-04-01, 3d 
     ETL completo               :active,    des6, 2024-04-08, 4d
+    Documentacion ETL               :active, a1, after des1, 5d
     Implementacion DW         :active,    des7, 2024-04-08, 4d
     Pipeline ETL               :active,    des8, 2024-04-08, 4d
     Diseño Modelo ER           :active,    des8, 2024-04-08, 4d 
@@ -36,6 +37,7 @@ gantt
     KPI's                     :   des3,  2024-04-01, 3d
     Diseño Dashboards              :active,    des20, 2024-04-15, 3d
     KPIs                           :active,    des21, 2024-04-15, 3d
+    Documentacion KPI's              :active, a1, after des1, 10d
     Modelos de ML                   :active,    des22, 2024-04-15, 3d
     Modelo de ML en producción      :active,    des23, 2024-04-15, 3d
     Selección del modelo         :active,    des24, 2024-04-15, 3d
@@ -47,19 +49,11 @@ gantt
 
     section Marcelo
     EDA                          :  des2, 2024-04-01, 3d
-    Documentacion ETL               :active, a1, after des1, 10d
-    Documentacion EDA              :active, a1, after des1, 10d
-    Documentacion KPI's              :active, a1, after des1, 10d
-    Documentacion DataWarehouse       :active, a1, after des1, 10d
-    Documentacion ML                   :active, a1, after des1, 10d
+    Documentacion EDA              :active, a1, after des1, 5d
 
    section Josue
-    ML                           : des5, 2024-04-01, 3d     
-    Documentacion ETL               :active, a1, after des1, 10d
-    Documentacion EDA              :active, a1, after des1, 10d
-    Documentacion KPI's              :active, a1, after des1, 10d
-    Documentacion DataWarehouse       :active, a1, after des1, 10d
-    Documentacion ML                   :active, a1, after des1, 10d
+    ML                           : des5, 2024-04-01, 3d
+    Documentacion ML                   :active, a1, after des1, 5d
 
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
