@@ -9,9 +9,9 @@ gantt
     section Cristian
     
     EDA                       :done,  des2, 2024-04-01, 3d
-    KPI's                     :done,   des3,  2024-04-01, 3d
+    
     Data warehouse            :done,   des4, 2024-04-01, 3d
-    Documentacion DataWarehouse       :done, a1, after des4, 10d
+    Documentacion DataWarehouse       :done, a1, after des4, 3d
     ML                        :done, des5, 2024-04-01, 3d               
 
     section Elizabeth
@@ -33,7 +33,8 @@ gantt
     Steamlit                     :active,    des18, 2024-04-08, 4d
     Implementacion de los endpoints     :active,    des19, 2024-04-08, 4d
 
-    section Ingrid          
+    section Ingrid
+    KPI's                     :done,   des3,  2024-04-01, 3d
     Diseño Dashboards              :active,    des20, 2024-04-15, 3d
     KPIs                           :active,    des21, 2024-04-15, 3d
     Modelos de ML                   :active,    des22, 2024-04-15, 3d
