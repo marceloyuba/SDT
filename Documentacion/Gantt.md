@@ -82,9 +82,9 @@ gantt
     Ensayo DEMO Final                  :active, 2024-04-18, 5h
 
     section Daily
-    Meet                               :active,a2, 2024-04-01, 2024-04-18
-    DEMO 1                             :active, 2024-04-05, 1h
-    DEMO 2                             :active, 2024-04-12, 1h
+    Meet                               :a2, 2024-04-01, 2024-04-18
+    DEMO 1                             : 2024-04-05, 1h
+    DEMO 2                             : 2024-04-12, 1h
     DEMO Final                             :active, 2024-04-19, 1h
    
 ```
