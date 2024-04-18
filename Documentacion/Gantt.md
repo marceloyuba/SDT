@@ -16,12 +16,11 @@ gantt
     Informe de análisis               :    des25, 2024-04-15, 3d
     Workflow detallando tecnologías :    des15, 2024-04-08, 4d
     Migración de datos a git        :    des12, 2024-04-08, 4d
+    Documentación Obserbable   :   des25, 2024-04-15, 3d
 
-   section Elizabeth
-
-    ETL                       :    des1, 2024-04-01, 3d 
+    section Elizabeth
     ETL completo               :    des6, 2024-04-08, 4d
-    Documentacion ETL               :active, a1, after des1, 5d
+    Documentacion ETL               :a1, after des1, 5d
     Diccionarios de datos             : a1, after des1, 5d
     Pipeline ETL               :    des8, 2024-04-08, 4d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d 
@@ -43,8 +42,10 @@ gantt
     Informe de análisis               :   des25, 2024-04-15, 3d
     Guion del video                  :    des26, 2024-04-15, 3d
     Video del proyecto              :  des27, 2024-04-15, 3d
-    
-
+    Readme                        : 2024-04-15, 3d
+    creacion PPT               :2024-04-01,4d
+    creacion PPT               :2024-04-08,4d
+   
 
     section Marcelo
     EDA                          :  des2, 2024-04-01, 3d
@@ -55,7 +56,7 @@ gantt
     Steamlit                     :    des18, 2024-04-08, 4d
     Informe de análisis               :    des25, 2024-04-15, 3d
     Análisis de datos de muestra   :   des16, 2024-04-08, 4d
-    Github                          : 2024-04-15, 3d
+    Readme                        : 2024-04-15, 3d
 
     section Josue
     ML                           : des5, 2024-04-01, 3d
