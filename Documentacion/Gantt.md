@@ -19,8 +19,8 @@ gantt
     Documentación Obserbable   :   des25, 2024-04-15, 3d
 
     section Elizabeth
-    ETL completo               :    des6, 2024-04-08, 4d
-    Documentacion ETL               :a1, after des1, 5d
+    ETL completo               :    des6, 2024-04-01, 4d
+    Documentacion ETL               :a1, after des6, 5d
     Diccionarios de datos             : a1, after des1, 5d
     Pipeline ETL               :    des8, 2024-04-08, 4d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d 
