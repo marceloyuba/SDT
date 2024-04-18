@@ -9,56 +9,60 @@ gantt
     section Cristian
     
     Data warehouse            :  des4, 2024-04-01, 3d
-    Automatización             :active,    des11, 2024-04-08, 4d
+    Automatización             :    des11, 2024-04-08, 4d
     Documentacion DataWarehouse       : a1, after des4, 5d
-    Implementacion DW         :active,    des7, 2024-04-08, 4d
+    Implementacion DW         :    des7, 2024-04-08, 4d
+    DW                          :    des10, 2024-04-08, 4d
+    Informe de análisis               :    des25, 2024-04-15, 3d
+    Workflow detallando tecnologías :active,    des15, 2024-04-08, 4d
 
     section Elizabeth
 
     ETL                       :    des1, 2024-04-01, 3d 
-    ETL completo               :active,    des6, 2024-04-08, 4d
+    ETL completo               :    des6, 2024-04-08, 4d
     Documentacion ETL               :active, a1, after des1, 5d
-    Diccionarios              :active, a1, after des1, 5d
-    Pipeline ETL               :active,    des8, 2024-04-08, 4d
-    Diseño Modelo ER           :active,    des8, 2024-04-08, 4d 
-    Pipeline Alimentar DW       :active,    des9, 2024-04-08, 4d
-    DW                          :active,    des10, 2024-04-08, 4d
-    Automatización             :active,    des11, 2024-04-08, 4d
+    Diccionarios de datos             : a1, after des1, 5d
+    Pipeline ETL               :    des8, 2024-04-08, 4d
+    Diseño Modelo ER           :    des8, 2024-04-08, 4d 
+    Pipeline Alimentar DW       :    des9, 2024-04-08, 4d
     Validación de datos         :active,    des12, 2024-04-08, 4d
-    Diagrama ER Detallado       :active,    des13, 2024-04-08, 4d
-    Diccionario de datos        :active,    des14, 2024-04-08, 4d
-    Workflow detallando tecnologías :active,    des15, 2024-04-08, 4d
+    Informe de análisis               :active,    des25, 2024-04-15, 3d
     Análisis de datos de muestra   :active,    des16, 2024-04-08, 4d
-    Concepto del Proyecto         :active,    des17, 2024-04-08, 4d
-    Steamlit                     :active,    des18, 2024-04-08, 4d
-    Implementacion de los endpoints     :active,    des19, 2024-04-08, 4d
+   
+    
+    
 
     section Ingrid
     KPI's                     :   des3,  2024-04-01, 3d
-    Diseño Dashboards              :active,    des20, 2024-04-15, 3d
-    KPIs                           :active,    des21, 2024-04-15, 3d
-    Documentacion KPI's              :active, a1, after des1, 5d
+    Diseño Dashboards              :    des20, 2024-04-15, 3d
+    KPIs                           :   des21, 2024-04-15, 3d
+    Documentacion KPI's              : a1, after des1, 5d
+   
     
-    Informe de análisis               :active,    des25, 2024-04-15, 3d
-    Guion del video                  :active,    des26, 2024-04-15, 3d
-    Video del proyecto              :active,    des27, 2024-04-15, 3d
-    Streamlit                       :active, des28, 2024-04-15, 3d
+    Informe de análisis               :   des25, 2024-04-15, 3d
+    Guion del video                  :    des26, 2024-04-15, 3d
+    Video del proyecto              :  des27, 2024-04-15, 3d
+    
 
 
     section Marcelo
     EDA                          :  des2, 2024-04-01, 3d
     Documentacion EDA              :active, a1, after des1, 5d
-    Diseño Modelo ER           :active,    des8, 2024-04-08, 4d 
-
+    Diseño Modelo ER           :    des8, 2024-04-08, 4d
+    Validación de datos         :    des12, 2024-04-08, 4d
+    Diagrama ER Detallado       :    des13, 2024-04-08, 4d
+    Steamlit                     :    des18, 2024-04-08, 4d
+    Informe de análisis               :    des25, 2024-04-15, 3d
+    Análisis de datos de muestra   :   des16, 2024-04-08, 4d
 
     section Josue
     ML                           : des5, 2024-04-01, 3d
     Documentacion ML                   :active, a1, after des1, 5d
-    Selección del modelo         :active,    des24, 2024-04-15, 3d
-    Modelos de ML                   :active,    des22, 2024-04-15, 3d
-    Modelo de ML en producción      :active,    des23, 2024-04-15, 3d
-
-
+    Selección del modelo         :    des24, 2024-04-15, 3d
+    Modelos de ML                   :    des22, 2024-04-15, 3d
+    Modelo de ML en producción      :    des23, 2024-04-15, 3d
+    Implementacion de los endpoints     :    des19, 2024-04-08, 4d
+    Informe de análisis               :active,    des25, 2024-04-15, 3d
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
     PPT D2                              :crit,  2024-04-11,24h
