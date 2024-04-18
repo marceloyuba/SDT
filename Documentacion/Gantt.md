@@ -45,7 +45,7 @@ gantt
     Readme                        : 2024-04-15, 3d
     creacion PPT               :2024-04-01,4d
     creacion PPT               :2024-04-08,4d
-   
+    Presentacion Final            :  2024-04-15,4d
 
     section Marcelo
     EDA                          :  des2, 2024-04-01, 3d
@@ -70,7 +70,7 @@ gantt
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
     PPT D2                              :crit,  2024-04-11,24h
-    Precentacion Final                          :crit,  2024-04-19,24h
+    Presentacion Final                          :crit,  2024-04-19,24h
     Definir roles                       :milestone, isadded, 2024-04-01, 0d
     Descarga datasets                   :milestone, isadded, 2024-04-01, 24h
     Definir DataWarehouse               :milestone,isadded, 2024-04-01, 24h
