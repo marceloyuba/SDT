@@ -6,14 +6,14 @@ gantt
     excludes     saturday sunday
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
 
-    section Tareas semana 1
+    section Cristian
     ETL                       :done,    des1, 2024-04-01, 3d
     EDA                       :done,  des2, 2024-04-01, 3d
     KPI's                     :done,   des3,  2024-04-01, 3d
     Data warehouse            :done,   des4, 2024-04-01, 3d
     ML                        :done, des5, 2024-04-01, 3d               
 
-    section Tareas semana 2            
+    section Elizabeth            
     ETL completo               :active,    des6, 2024-04-08, 4d
     Implementacion DW         :active,    des7, 2024-04-08, 4d
     Pipeline ETL               :active,    des8, 2024-04-08, 4d
@@ -30,7 +30,7 @@ gantt
     Steamlit                     :active,    des18, 2024-04-08, 4d
     Implementacion de los endpoints     :active,    des19, 2024-04-08, 4d
 
-    section Tareas semana 3           
+    section Ingrid          
     Diseño Dashboards              :active,    des20, 2024-04-15, 3d
     KPIs                           :active,    des21, 2024-04-15, 3d
     Modelos de ML                   :active,    des22, 2024-04-15, 3d
@@ -50,13 +50,20 @@ gantt
     Definir DataWarehouse               :milestone,isadded, 2024-04-01, 24h
     Subir datasets                      :milestone,isadded 2024-04-04, 2d
 
-    section Documentación
+    section Marcelo
     Documentacion ETL               :active, a1, after des1, 10d
     Documentacion EDA              :active, a1, after des1, 10d
     Documentacion KPI's              :active, a1, after des1, 10d
     Documentacion DataWarehouse       :active, a1, after des1, 10d
     Documentacion ML                   :active, a1, after des1, 10d
-    
+
+   section Josue
+    Documentacion ETL               :active, a1, after des1, 10d
+    Documentacion EDA              :active, a1, after des1, 10d
+    Documentacion KPI's              :active, a1, after des1, 10d
+    Documentacion DataWarehouse       :active, a1, after des1, 10d
+    Documentacion ML                   :active, a1, after des1, 10d
+
     section Ensayo DEMO
     Ensayo DEMO 1                       :active, 2024-04-05, 5h
     Ensayo DEMO 2                       :active, 2024-04-11, 5h
