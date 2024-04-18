@@ -2,7 +2,7 @@
 
 ## Diccionarios de datos originales
 
-### Tabla green/yellow 2018-2021 original
+### Tabla green/yellow 2019-2020 original
 
 | Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
 |-------------------------|--------------------------------------------------------|--------------|------------------|
@@ -55,7 +55,7 @@
 
 ## Diccionario de datos una vez que se realizó el proceso de ETL
 
-### Tabla green/yellow enviroment 2018-2021
+### Tabla green/yellow enviroment 2019-2020
 
 | Nombre de la Columna    | Descripción                        | Tipo de dato  | Tipo de variable | Renombrada | Nombre original       |
 |-------------------------|------------------------------------|---------------|------------------|------------|-----------------------|
