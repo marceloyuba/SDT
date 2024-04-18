@@ -25,7 +25,6 @@ gantt
     Pipeline ETL               :    des8, 2024-04-08, 4d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d 
     Pipeline Alimentar DW       :    des9, 2024-04-08, 4d
-    Validación de datos         :    des12, 2024-04-08, 4d
     Informe de análisis               :   des25, 2024-04-15, 3d
     Análisis de datos de muestra   :   des16, 2024-04-08, 4d
     creacion github         :    des1, 2024-04-01, 3d 
@@ -35,6 +34,7 @@ gantt
 
     section Ingrid
     KPI's                     :   des3,  2024-04-01, 3d
+    Validación de datos         :    des12, 2024-04-08, 4d
     Diseño Dashboards              :    des20, 2024-04-15, 3d
     KPIs                           :   des21, 2024-04-15, 3d
     Documentacion KPI's              : a1, after des1, 5d
@@ -55,6 +55,7 @@ gantt
     Diagrama ER Detallado       :    des13, 2024-04-08, 4d
     Steamlit                     :    des18, 2024-04-08, 4d
     Informe de análisis               :    des25, 2024-04-15, 3d
+    Diseño de reportes/Dashboard   : 2024-04-15, 3d
     Análisis de datos de muestra   :   des16, 2024-04-08, 4d
     Readme                        : 2024-04-15, 3d
 
