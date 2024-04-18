@@ -15,8 +15,9 @@ gantt
     DW                          :    des10, 2024-04-08, 4d
     Informe de análisis               :    des25, 2024-04-15, 3d
     Workflow detallando tecnologías :    des15, 2024-04-08, 4d
+    Migración de datos a git        :    des12, 2024-04-08, 4d
 
-    section Elizabeth
+   section Elizabeth
 
     ETL                       :    des1, 2024-04-01, 3d 
     ETL completo               :    des6, 2024-04-08, 4d
@@ -27,7 +28,7 @@ gantt
     Pipeline Alimentar DW       :    des9, 2024-04-08, 4d
     Validación de datos         :    des12, 2024-04-08, 4d
     Informe de análisis               :   des25, 2024-04-15, 3d
-    Análisis de datos de muestra   :active,    des16, 2024-04-08, 4d
+    Análisis de datos de muestra   :   des16, 2024-04-08, 4d
     creacion github         :    des1, 2024-04-01, 3d 
    
     
@@ -39,7 +40,6 @@ gantt
     KPIs                           :   des21, 2024-04-15, 3d
     Documentacion KPI's              : a1, after des1, 5d
     Github                          : 2024-04-15, 3d
-    
     Informe de análisis               :   des25, 2024-04-15, 3d
     Guion del video                  :    des26, 2024-04-15, 3d
     Video del proyecto              :  des27, 2024-04-15, 3d
@@ -48,7 +48,7 @@ gantt
 
     section Marcelo
     EDA                          :  des2, 2024-04-01, 3d
-    Documentacion EDA              :active, a1, after des1, 5d
+    Documentacion EDA              : a1, after des1, 5d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d
     Validación de datos         :    des12, 2024-04-08, 4d
     Diagrama ER Detallado       :    des13, 2024-04-08, 4d
@@ -59,12 +59,13 @@ gantt
 
     section Josue
     ML                           : des5, 2024-04-01, 3d
-    Documentacion ML                   :active, a1, after des1, 5d
+    Documentacion ML                   : a1, after des1, 5d
     Selección del modelo         :    des24, 2024-04-15, 3d
     Modelos de ML                   :    des22, 2024-04-15, 3d
     Modelo de ML en producción      :    des23, 2024-04-15, 3d
     Implementacion de los endpoints     :    des19, 2024-04-08, 4d
-    Informe de análisis               :active,    des25, 2024-04-15, 3d
+    Informe de análisis               :    des25, 2024-04-15, 3d
+
     section Hitos
     PPT D1                              :crit,  2024-04-05,24h
     PPT D2                              :crit,  2024-04-11,24h
