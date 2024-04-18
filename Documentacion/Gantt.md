@@ -14,7 +14,7 @@ gantt
     Implementacion DW         :    des7, 2024-04-08, 4d
     DW                          :    des10, 2024-04-08, 4d
     Informe de análisis               :    des25, 2024-04-15, 3d
-    Workflow detallando tecnologías :active,    des15, 2024-04-08, 4d
+    Workflow detallando tecnologías :    des15, 2024-04-08, 4d
 
     section Elizabeth
 
@@ -25,9 +25,10 @@ gantt
     Pipeline ETL               :    des8, 2024-04-08, 4d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d 
     Pipeline Alimentar DW       :    des9, 2024-04-08, 4d
-    Validación de datos         :active,    des12, 2024-04-08, 4d
-    Informe de análisis               :active,    des25, 2024-04-15, 3d
+    Validación de datos         :    des12, 2024-04-08, 4d
+    Informe de análisis               :   des25, 2024-04-15, 3d
     Análisis de datos de muestra   :active,    des16, 2024-04-08, 4d
+    creacion github         :    des1, 2024-04-01, 3d 
    
     
     
@@ -37,7 +38,7 @@ gantt
     Diseño Dashboards              :    des20, 2024-04-15, 3d
     KPIs                           :   des21, 2024-04-15, 3d
     Documentacion KPI's              : a1, after des1, 5d
-   
+    Github                          : 2024-04-15, 3d
     
     Informe de análisis               :   des25, 2024-04-15, 3d
     Guion del video                  :    des26, 2024-04-15, 3d
@@ -54,6 +55,7 @@ gantt
     Steamlit                     :    des18, 2024-04-08, 4d
     Informe de análisis               :    des25, 2024-04-15, 3d
     Análisis de datos de muestra   :   des16, 2024-04-08, 4d
+    Github                          : 2024-04-15, 3d
 
     section Josue
     ML                           : des5, 2024-04-01, 3d
