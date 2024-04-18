@@ -34,7 +34,7 @@ gantt
     Implementacion de los endpoints     :active,    des19, 2024-04-08, 4d
 
     section Ingrid
-    KPI's                     :done,   des3,  2024-04-01, 3d
+    KPI's                     :   des3,  2024-04-01, 3d
     Diseño Dashboards              :active,    des20, 2024-04-15, 3d
     KPIs                           :active,    des21, 2024-04-15, 3d
     Modelos de ML                   :active,    des22, 2024-04-15, 3d
