@@ -21,7 +21,7 @@ gantt
     section Elizabeth
     ETL completo               :    des6, 2024-04-01, 4d
     Documentacion ETL               :a1, after des6, 5d
-    Diccionarios de datos             : a1, after des1, 5d
+    Diccionarios de datos             : a1, after des6, 5d
     Pipeline ETL               :    des8, 2024-04-08, 4d
     Diseño Modelo ER           :    des8, 2024-04-08, 4d 
     Pipeline Alimentar DW       :    des9, 2024-04-08, 4d
