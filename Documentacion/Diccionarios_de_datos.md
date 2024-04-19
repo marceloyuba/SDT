@@ -2,7 +2,7 @@
 
 ## Diccionarios de datos originales
 
-### Tabla green/yellow 2018-2021 original
+### Tabla green/yellow 2019-2020 original
 
 | Nombre de la columna    | Descripción                                            | Tipo de dato | Tipo de variable |
 |-------------------------|--------------------------------------------------------|--------------|------------------|
@@ -52,14 +52,43 @@
 | Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
 | Trip_type               | Identifica si el viaje fue en calle o se asignó        | float        | Cualitativa      |
 
+### Tabla HighVolume 2022 - 2023 Original
+
+| Nombre de la columna   | Descripción                                                                                                         | Tipo de dato | Tipo de variable |
+|------------------------|---------------------------------------------------------------------------------------------------------------------|--------------|------------------|
+| hvfhs_license_num      | El número de licencia TLC de la base o negocio de HVFHS.                                                           | str          | cualitativa      |
+| dispatching_base_num   | El número de licencia base TLC de la base que despachó el viaje.                                                  | datetime     | cualitativa      |
+| originating_base_num   | Número de base de la base que recibió la solicitud de viaje original.                                              | datetime     | cualitativa      |
+| request_datetime       | Fecha/hora en que el pasajero solicitó ser recogido.                                                                | datetime     | cualitativa      |
+| on_scene_datetime      | Fecha/hora en que el conductor llegó al lugar de recogida.                                                          | datetime     | cualitativa      |
+| pickup_datetime        | La fecha y hora de recogida del viaje.                                                                             | datetime     | cualitativa      |
+| dropoff_datetime       | La fecha y hora de regreso del viaje.                                                                              | datetime     | cualitativa      |
+| PULocationID           | TLC Zona de Taxis en la que inició el viaje.                                                                       | int          | cualitativa      |
+| DOLocationID           | Zona de Taxi TLC en la que finalizó el viaje.                                                                      | int          | cualitativa      |
+| trip_miles             | Millas totales por viaje de pasajero.                                                                              | float        | cuantitativa     |
+| trip_time              | Tiempo total en segundos para el viaje del pasajero.                                                                | float        | cuantitativa     |
+| base_passenger_fare    | Tarifa base de pasajero antes de peajes, propinas, impuestos y tarifas.                                             | float        | cuantitativa     |
+| tolls                  | Importe total de todos los peajes pagados en el viaje.                                                              | float        | cuantitativa     |
+| bcf                    | Monto total recaudado en viaje para Black Car Fund.                                                                 | float        | cuantitativa     |
+| sales_tax              | Monto total recaudado en el viaje por el impuesto sobre las ventas del estado de Nueva York.                        | float        | cuantitativa     |
+| congestion_surcharge   | Monto total recaudado en el viaje por el recargo por congestión del estado de Nueva York.                           | float        | cuantitativa     |
+| airport_fee            | $2.50 para dejar y recoger en LaGuardia, Newark y John Aeropuertos F. Kennedy.                                     | float        | cuantitativa     |
+| tips                   | Cantidad total de propinas recibidas del pasajero.                                                                  | float        | cuantitativa     |
+| driver_pay             | Pago total del conductor (sin incluir peajes ni propinas y neto de comisión, recargos o impuestos).                | float        | cuantitativa     |
+| shared_request_flag    | ¿Aceptó el pasajero un viaje compartido o conjunto, independientemente de si eran coincidentes? (sí/no)          | str          | cualitativa      |
+| shared_match_flag      | ¿El pasajero compartió el vehículo con otro pasajero que se reserva por separado en algún momento durante el viaje? (sí/no) | str          | cualitativa      |
+| access_a_ride_flag     | ¿El viaje fue administrado en nombre del Metropolitano? Autoridad de Transporte (MTA)? (sí/no)                     | str          | cualitativa      |
+| wav_request_flag       | ¿El pasajero solicitó un vehículo accesible para sillas de ruedas (WAV)? (sí/no)                                   | str          | cualitativa      |
+| wav_match_flag         | ¿El viaje se realizó en un vehículo accesible para sillas de ruedas (WAV)? (sí/no)                                 | str          | cualitativa      |
+
 
 ## Diccionario de datos una vez que se realizó el proceso de ETL
 
-### Tabla green/yellow enviroment 2018-2021
+### Tabla green/yellow enviroment 2019-2020
 
 | Nombre de la Columna    | Descripción                        | Tipo de dato  | Tipo de variable | Renombrada | Nombre original       |
 |-------------------------|------------------------------------|---------------|------------------|------------|-----------------------|
-| VendorID                | Eliminada                          | -             | -                | Si         | Vendor ID             |
+| VendorID                | Eliminada                          | -             | -                | NO         | Vendor ID             |
 | anio                    | Año de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
 | mes                     | Mes de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
 | dia_inicio              | Día en que inicio el viaje         | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
@@ -118,6 +147,38 @@
 | tipo_color             | Asigna el color del taxi                             | str          | Cualitativa      | Agregada   | type_color            |
 | total_tiempo           | Tiempo que duró el viaje                             | str           | Cuantitativa     | Agregada   | total_tiempo          |
 
+
+### Tabla de Uber/Lyft
+
+| Nombre de la Columna       | Descripción                               | Tipo de dato | Tipo de variable | Renombrada | Nombre original      |
+|---------------------------|-------------------------------------------|--------------|------------------|------------|----------------------|
+| numero_licencia           | Eliminada                                 | -            | -                | Si         | hvfhs_license_num    |
+| numero_despacho           | Eliminada                                 | -            | -                | Si         | dispatching_base_num |
+| tipo_color                | uber o lyft                               | str          | cualitativa      | Si         | originating_base_num|
+| anio                      | año de pedido                             | int          | cualitativa      | Si         | request_datetime     |
+| mes                       | mes                                       | int          | cualitativa      | Si         | request_datetime     |
+| dia                       | día                                       | int          | cualitativa      | Si         | request_datetime     |
+| hora_pedido               | hora en que se pidió el viaje            | object       | cualitativa      | Si         | request_datetime     |
+| hora_encuentro            | hora en que se encontró el viaje          | object       | cualitativa      | Si         | on_scene_datetime    |
+| hora_inicio               | hora en que inició el viaje              | object       | cualitativa      | Si         | pickup_datetime      |
+| hora_fin                  | hora en que finalizó el viaje            | object       | cualitativa      | Si         | dropoff_datetime     |
+| ubicacion_inicio          | ubicación de inicio del viaje            | int          | cuantitativa     | Si         | PULocationID         |
+| ubicacion_fin             | ubicación en que finalizó el viaje       | int          | cuantitativa     | Si         | DOLocationID         |
+| millas_viaje              | Recorrido en millas                      | float        | cuantitativa     | Si         | trip_miles           |
+| tiempo_viaje              | tiempo que duró el viaje                 | float        | cuantitativa     | Si         | trip_time            |
+| viaje_bruto               | Eliminada                                 | -            | -                | Si         | base_passenger_fare  |
+| peajes                    | Eliminada                                 | -            | -                | Si         | tolls                |
+| impuesto_bcf              | Eliminada                                 | -            | -                | Si         | bcf                  |
+| impuesto_viaje            | Eliminada                                 | -            | -                | Si         | sales_tax            |
+| cargo_congestion          | cargo por congestión                     | float        | cuantitativa     | Si         | congestion_surcharge |
+| cargo_aeropuerto          | Eliminada                                 | -            | -                | No         | airport_fee          |
+| tips                      | Eliminada                                 | -            | -                | Si         | tips                 |
+| pago_total                | pago total del viaje                      | float        | cuantitativa     | Si         | driver_pay           |
+| viaje_compartido_pedido   | se pidió un viaje compartido             | object       | cualitativa      | Si         | shared_request_flag  |
+| viaje_compartido_encontrado| se encontró un viaje compartido          | object       | cualitativa      | Si         | shared_match_flag    |
+| access_a_ride_flag        | Eliminada                                 | -            | -                | Si         | access_a_ride_flag   |
+| accesibilidad_requerida   | se accedió a un viaje                    | object       | cualitativa      | Si         | wav_request_flag     |
+| accesibilidad_espontanea  | se accedió a un viaje para sillas de ruedas | object    | cualitativa      | Si         | wav_match_flag       |
 
 ### Tabla approvedModels (Tabla propia)
 
