@@ -66,13 +66,15 @@ Este KPI es un indicativo de la viabilidad del proyecto, ya que a más distancia
 Podemos medir el impacto en la calidad del aire de los autos con los que operará Greyhound midiendo las emisiones de CO2, donde se pueden hacer análisis comparando las emisiones de los vehículos tradicionales de combustión interna, en periodos de tiempo diferentes.
 Este KPI se formula alineado con las prioridades del cliente de querer tener un menor impacto ambiental.
 
+Para poder formular este KPI se hizo una revisión de la data de los gases de efecto invernadero que deja el sector del transporte en la ciudad de Nueva York, tomada de [NYC Greenhouse Gas Inventories](https://climate.cityofnewyork.us/initiatives/nyc-greenhouse-gas-inventories/), de donde se calcula una tasa de emisiones de CO2 generada por unidad de energía consumida en BUT, la cual se toma de la distancia recorrida por los autos. 
+
 **Para la aceptación en el mercado se propone medir:**
 
 **- Ingresos en viajes por periodo de tiempo**
 
 Con este KPI se quiere medir si los ingresos de dinero por cada viaje aumentan con el pasar del tiempo, para este caso se planea un análisis con un aumento del 15% de ingresos para el año siguiente, teniendo en cuenta las demás cifras económicas de la ciudad. Con esta metríca podremos analizar si aumentan los ingresos junto con la cantidad de viajes. 
 
-Los detalles de los KPIs formulados se pueden ver [aquí]()
+Los detalles de los KPIs formulados se pueden ver [aquí.](https://github.com/micjb/FinalProject/blob/main/KPIs)
 
 ## **Sprint 2**
 
@@ -81,13 +83,20 @@ También se hizo un proceso de ETL local, el cual contribuyó en el desarrollo p
 Asimismo, la información más detallada del código del ETL la encuentras en la carpeta de este repositorio llamada [ETL.](https://github.com/micjb/FinalProject/tree/main/ETL)
 
 Para lograr esto, se plantea un workflow desde el almacenamiento de los datos en el storage, creando un *bucket* de almacenamiento que reciban los datos cargados mediante *webscrapping*.
-Más detalles de la forma en como se hizo el scrapping está en el repositprio y se pude ver aquí: [**Scrappin**](https://github.com/micjb/FinalProject/tree/main/Scraping)
+Más detalles de la forma en como se hizo el scrapping está en el repositprio y se pude ver aquí: [**Scrapping.**](https://github.com/micjb/FinalProject/tree/main/Scraping)
 
-Seguido del esto, se crean **Cloud Functions** con los scripts que hacen el ETL, para que cada vez que se cargue un archivo en el storage se active la cloud function para que realice el proceso de ETL automatizado, y una vez hecho el ETL se activa otra cloud function para enviar el dataset ya transformado y limpio a **BigQuery**.
+Seguido del esto, se crean [**Cloud Functions**](https://github.com/micjb/FinalProject/tree/main/ETL/Functions%20GCP) con los scripts que hacen el ETL, para que cada vez que se cargue un archivo en el storage se active la cloud function para que realice el proceso de ETL automatizado, y una vez hecho el ETL se activa otra cloud function para enviar el dataset ya transformado y limpio a **BigQuery**.
 
 Una vez esté almacenado el dataset limpio en BigQuery, estará disponible para hacer las consultas que se requieran, y también para poderse conectar con las demás herramientas para el proceso de análisis posterior. 
 
 ## **Sprint 3**
+
+En esta última fase se tienen como actividades principales la realización del Dashboard interactivo, la realización de un EDA profundo junto con sus respectivos análisis y conclusiones y la realización del modelo de machine learning deployado. 
+
+El dashborad fue realizado en *Power BI*, mostrando de manera interactiva el relacionamiento de los datos de los Taxis de NYC, datos de Uber y de Lyft, con el fin de realizar análisis de competidores. También se encuentran los KPIs debidamente representados para medir los ítems principales del proyecto. 
+
+
+### Streamlit 
 
 
 
