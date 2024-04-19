@@ -32,6 +32,11 @@ Este proyecto consta de tres fases principales que se realizan implementando mé
 
 Así que a continuación se explicará que conlleva cada fase de este proyecto, que métodos y herramientas se usaron, y asimismo que análisis se realizaron.
 
+<div align="center">
+
+![Taxis](imagenes/taxis-nueva-york.jpeg)
+</div>
+
 ## **Sprint 1**
 
 En este primer sprint se hace el planteamiento del proyecto entendiendo la situación actual realizando un EDA preliminar, se plantean los obejtivos general y específicos, el alcance del proyecto, se determianan los KPIs y las métricas a utilizar. 
