@@ -36,13 +36,21 @@ Así que a continuación se explicará que conlleva cada fase de este proyecto, 
 
 En este primer sprint se hace el planteamiento del proyecto entendiendo la situación actual realizando un EDA preliminar, se plantean los obejtivos general y específicos, el alcance del proyecto, se determianan los KPIs y las métricas a utilizar. 
 
-También se plantea el [*Stack Tecnológico*]() a utilizar a lo largo del proyecto, con el debido cronograma en un diagrama de Gantt y las tareas delegadas para los diferentes roles y sus metodologías.
+También se plantea el [*Stack Tecnológico*](https://github.com/micjb/FinalProject/blob/main/imagenes/Stack_tecnologico.jpg) a utilizar a lo largo del proyecto, con el debido cronograma en un [*diagrama de Gantt*](https://github.com/micjb/FinalProject/blob/main/Documentacion/Gantt.md) y las tareas delegadas para los diferentes roles y sus metodologías.
 
 
 ### Objetivo General del Proyecto
 Estudiar la viabilidad de incorporar vehículos eléctricos de transporte de pasajeros en la ciudad de Nueva York, con el fin de reducir la contaminación, de manera que sea rentable para la empresa, precisando la concentración en la demanda de los tipos de vehículos en las diferentes áreas de la ciudad.
 
-En este primer sprint se plantearon los siguientes KPIs:
+Y asimismo planteamos estos objetivos especificos como pilares para el desarrollo del mismo:
+
+- Analizar la viabilidad del proyecto teniendo en cuenta métricas de la demanda del mercado, para determinar cuáles serían los autos más recomendados para incursionar en este sector del transporte. 
+
+- Analizar los factores ambientales, ya que se quiere incursionar con vehículos que no generen tanta contaminación, teniendo en cuenta el tiempo de pre, durante y post pandemia como referencia del impacto ambiental en términos de calidad del aire. 
+
+- Evaluar el comportamiento del mercado con la nueva inversión de autos, con métricas relacionadas al número de viajes realizados, distancias recorridas por zonas, viajes entre las distintas zonas, estudio de tiempos de más alta demanda, entre otras. 
+
+### Indicadores Clave de Desempeño (KPIs)
  
 **Para la viabilidad se propone:**
 
@@ -51,7 +59,7 @@ En este primer sprint se plantearon los siguientes KPIs:
 Midiendo la distancia recorrida por los autos estudiados, podremos ver el comportamiento operativo, si aumenta o reduce la operación, así como también se puede ver que tanta es la acogida en el mercado.
 Este KPI es un indicativo de la viabilidad del proyecto, ya que a más distancia de actividad va a ser más sostenible el negocio en el tiempo.
 
-**Para la contaminación o impacto ambiental se propone:**
+**Para el impacto ambiental se propone:**
 
 **- Emisiones de CO2**
 
@@ -60,18 +68,20 @@ Este KPI se formula alineado con las prioridades del cliente de querer tener un 
 
 **Para la aceptación en el mercado se propone medir:**
 
-**- Utilización de vehículos eléctricos por zonas: cantiad de viajes por zona**
+**- Ingresos en viajes por periodo de tiempo**
 
-Medir la utilización de los vehículos eléctricos y observar su comportamiento a través del tiempo, nos ayuda a identificar patrones de preferencia de estos vehículos en las diferentes zonas de la ciudad. 
-Con este KPI podemos plantear una meta de aumento en la utilización por periodo de tiempo, teniendo en cuenta la cantidad de viajes realizados totales en determinada zona.
+Con este KPI se quiere medir si los ingresos de dinero por cada viaje aumentan con el pasar del tiempo, para este caso se planea un análisis con un aumento del 15% de ingresos para el año siguiente, teniendo en cuenta las demás cifras económicas de la ciudad. Con esta metríca podremos analizar si aumentan los ingresos junto con la cantidad de viajes. 
 
-## La definición del stack tecnológico se puede ver aquí.
+Los detalles de los KPIs formulados se pueden ver [aquí]()
 
 ## **Sprint 2**
 
 En esta segunda fase se organiza la infraestructura del proyecto con almacenamiento en la nube, desarrollando el pipeline completo para realizar el proceso de ETL automatizado, mediante **Google Cloud Plataform**.
+También se hizo un proceso de ETL local, el cual contribuyó en el desarrollo posterior del ETL automatizado, junto con el desarrollo de las funciones que desplegarían todo el proceso. La información más detallada de este proceso se puede ver en la carpeta de la documentación que está [aquí.](https://github.com/micjb/FinalProject/tree/main/Documentacion)
+Asimismo, la información más detallada del código del ETL la encuentras en la carpeta de este repositorio llamada [ETL.](https://github.com/micjb/FinalProject/tree/main/ETL)
 
 Para lograr esto, se plantea un workflow desde el almacenamiento de los datos en el storage, creando un *bucket* de almacenamiento que reciban los datos cargados mediante *webscrapping*.
+Más detalles de la forma en como se hizo el scrapping está en el repositprio y se pude ver aquí: [**Scrappin**](https://github.com/micjb/FinalProject/tree/main/Scraping)
 
 Seguido del esto, se crean **Cloud Functions** con los scripts que hacen el ETL, para que cada vez que se cargue un archivo en el storage se active la cloud function para que realice el proceso de ETL automatizado, y una vez hecho el ETL se activa otra cloud function para enviar el dataset ya transformado y limpio a **BigQuery**.
 
