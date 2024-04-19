@@ -52,6 +52,35 @@
 | Congestion_Surcharge    | Monto total cobrado por congestión en NY               | float        | Cuantitativa     |
 | Trip_type               | Identifica si el viaje fue en calle o se asignó        | float        | Cualitativa      |
 
+### Tabla HighVolume 2022 - 2023 Original
+
+| Nombre de la columna   | Descripción                                                                                                         | Tipo de dato | Tipo de variable |
+|------------------------|---------------------------------------------------------------------------------------------------------------------|--------------|------------------|
+| hvfhs_license_num      | El número de licencia TLC de la base o negocio de HVFHS.                                                           | str          | cualitativa      |
+| dispatching_base_num   | El número de licencia base TLC de la base que despachó el viaje.                                                  | datetime     | cualitativa      |
+| originating_base_num   | Número de base de la base que recibió la solicitud de viaje original.                                              | datetime     | cualitativa      |
+| request_datetime       | Fecha/hora en que el pasajero solicitó ser recogido.                                                                | datetime     | cualitativa      |
+| on_scene_datetime      | Fecha/hora en que el conductor llegó al lugar de recogida.                                                          | datetime     | cualitativa      |
+| pickup_datetime        | La fecha y hora de recogida del viaje.                                                                             | datetime     | cualitativa      |
+| dropoff_datetime       | La fecha y hora de regreso del viaje.                                                                              | datetime     | cualitativa      |
+| PULocationID           | TLC Zona de Taxis en la que inició el viaje.                                                                       | int          | cualitativa      |
+| DOLocationID           | Zona de Taxi TLC en la que finalizó el viaje.                                                                      | int          | cualitativa      |
+| trip_miles             | Millas totales por viaje de pasajero.                                                                              | float        | cuantitativa     |
+| trip_time              | Tiempo total en segundos para el viaje del pasajero.                                                                | float        | cuantitativa     |
+| base_passenger_fare    | Tarifa base de pasajero antes de peajes, propinas, impuestos y tarifas.                                             | float        | cuantitativa     |
+| tolls                  | Importe total de todos los peajes pagados en el viaje.                                                              | float        | cuantitativa     |
+| bcf                    | Monto total recaudado en viaje para Black Car Fund.                                                                 | float        | cuantitativa     |
+| sales_tax              | Monto total recaudado en el viaje por el impuesto sobre las ventas del estado de Nueva York.                        | float        | cuantitativa     |
+| congestion_surcharge   | Monto total recaudado en el viaje por el recargo por congestión del estado de Nueva York.                           | float        | cuantitativa     |
+| airport_fee            | $2.50 para dejar y recoger en LaGuardia, Newark y John Aeropuertos F. Kennedy.                                     | float        | cuantitativa     |
+| tips                   | Cantidad total de propinas recibidas del pasajero.                                                                  | float        | cuantitativa     |
+| driver_pay             | Pago total del conductor (sin incluir peajes ni propinas y neto de comisión, recargos o impuestos).                | float        | cuantitativa     |
+| shared_request_flag    | ¿Aceptó el pasajero un viaje compartido o conjunto, independientemente de si eran coincidentes? (sí/no)          | str          | cualitativa      |
+| shared_match_flag      | ¿El pasajero compartió el vehículo con otro pasajero que se reserva por separado en algún momento durante el viaje? (sí/no) | str          | cualitativa      |
+| access_a_ride_flag     | ¿El viaje fue administrado en nombre del Metropolitano? Autoridad de Transporte (MTA)? (sí/no)                     | str          | cualitativa      |
+| wav_request_flag       | ¿El pasajero solicitó un vehículo accesible para sillas de ruedas (WAV)? (sí/no)                                   | str          | cualitativa      |
+| wav_match_flag         | ¿El viaje se realizó en un vehículo accesible para sillas de ruedas (WAV)? (sí/no)                                 | str          | cualitativa      |
+
 
 ## Diccionario de datos una vez que se realizó el proceso de ETL
 
