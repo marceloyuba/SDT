@@ -11,12 +11,13 @@ Somos **Strategic Data Transform**, una consultora empresarial, que presta servi
 
 El proyecto esta orientado a realizar un estudio de viabilidad para nuestro cliente Greyhound, quién se encuentra laborando en el sector del transporte con micros de media y larga distancia, y ahora quiere incursionar en el sector de trasnporte de pasajeros en la ciudad de Nueva York con autos que tengan un bajo impacto ambietal.
 
+
 <div align="center">
 
 ![Logo_Greyhound](imagenes/logo_greyhound.png)
 </div>
 
-Greyhound quiere determinar que tipo de vehículo es el más óptimo para cada destino de viaje y asimismo contar con un estudio que le muestre si la viabilidad de realizar el proyecto con sus requerimientos es positiva, lo que conlleva a que nosotros como consultora hagamos diversos análisis de rentabilidad, impacto ambiental y viabilidad en el mercado. 
+Greyhound quiere determinar que tipo de vehículo es el más óptimo para cada destino de viaje y asimismo contar con un estudio que le muestre si la viabilidad de realizar el proyecto con sus requerimientos es positiva, lo que conlleva a que nosotros como consultora hagamos diversos análisis de rentabilidad, impacto ambiental y viabilidad en el mercado de diferentes formas. 
 En este proyecto también se analizará el comportamiento frente a sus competidores directos (Taxis, Uber y Lyft) en la ciudad, lo cual brindará un contexto de análisis mucho más completo y amplio. 
 
 Para poder realizar el estudio se tomo como fuente de datos la siguiente página web: [Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/index.page)
@@ -29,13 +30,14 @@ Este proyecto consta de tres fases principales que se realizan implementando mé
 - Marcelo Yuba - Data Analyst
 - Josue Mora - Data Scientist
 
-Así que a continuación se repasará que conlleva cada fase o sprint del proyecto.
+Así que a continuación se explicará que conlleva cada fase de este proyecto, que métodos y herramientas se usaron, y asimismo que análisis se realizaron.
 
 ## **Sprint 1**
 
 En este primer sprint se hace el planteamiento del proyecto entendiendo la situación actual realizando un EDA preliminar, se plantean los obejtivos general y específicos, el alcance del proyecto, se determianan los KPIs y las métricas a utilizar. 
 
-También se plantea el stack tecnológico a utilizar a lo largo del proyecto, con el debido cronograma en un diagrama de Gantt y las tareas delegadas para los diferentes roles y sus metodologías.
+También se plantea el [*Stack Tecnológico*]() a utilizar a lo largo del proyecto, con el debido cronograma en un diagrama de Gantt y las tareas delegadas para los diferentes roles y sus metodologías.
+
 
 ### Objetivo General del Proyecto
 Estudiar la viabilidad de incorporar vehículos eléctricos de transporte de pasajeros en la ciudad de Nueva York, con el fin de reducir la contaminación, de manera que sea rentable para la empresa, precisando la concentración en la demanda de los tipos de vehículos en las diferentes áreas de la ciudad.
