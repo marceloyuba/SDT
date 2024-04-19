@@ -88,7 +88,7 @@
 
 | Nombre de la Columna    | Descripción                        | Tipo de dato  | Tipo de variable | Renombrada | Nombre original       |
 |-------------------------|------------------------------------|---------------|------------------|------------|-----------------------|
-| VendorID                | Eliminada                          | -             | -                | Si         | Vendor ID             |
+| VendorID                | Eliminada                          | -             | -                | NO         | Vendor ID             |
 | anio                    | Año de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
 | mes                     | Mes de viaje                       | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
 | dia_inicio              | Día en que inicio el viaje         | int           | cuantitativa     | Si         | tpep_pickup_datetime  |
@@ -147,6 +147,38 @@
 | tipo_color             | Asigna el color del taxi                             | str          | Cualitativa      | Agregada   | type_color            |
 | total_tiempo           | Tiempo que duró el viaje                             | str           | Cuantitativa     | Agregada   | total_tiempo          |
 
+
+### Tabla de Uber/Lyft
+
+| Nombre de la Columna       | Descripción                               | Tipo de dato | Tipo de variable | Renombrada | Nombre original      |
+|---------------------------|-------------------------------------------|--------------|------------------|------------|----------------------|
+| numero_licencia           | Eliminada                                 | -            | -                | Si         | hvfhs_license_num    |
+| numero_despacho           | Eliminada                                 | -            | -                | Si         | dispatching_base_num |
+| tipo_color                | uber o lyft                               | str          | cualitativa      | Si         | originating_base_num|
+| anio                      | año de pedido                             | int          | cualitativa      | Si         | request_datetime     |
+| mes                       | mes                                       | int          | cualitativa      | Si         | request_datetime     |
+| dia                       | día                                       | int          | cualitativa      | Si         | request_datetime     |
+| hora_pedido               | hora en que se pidió el viaje            | object       | cualitativa      | Si         | request_datetime     |
+| hora_encuentro            | hora en que se encontró el viaje          | object       | cualitativa      | Si         | on_scene_datetime    |
+| hora_inicio               | hora en que inició el viaje              | object       | cualitativa      | Si         | pickup_datetime      |
+| hora_fin                  | hora en que finalizó el viaje            | object       | cualitativa      | Si         | dropoff_datetime     |
+| ubicacion_inicio          | ubicación de inicio del viaje            | int          | cuantitativa     | Si         | PULocationID         |
+| ubicacion_fin             | ubicación en que finalizó el viaje       | int          | cuantitativa     | Si         | DOLocationID         |
+| millas_viaje              | Recorrido en millas                      | float        | cuantitativa     | Si         | trip_miles           |
+| tiempo_viaje              | tiempo que duró el viaje                 | float        | cuantitativa     | Si         | trip_time            |
+| viaje_bruto               | Eliminada                                 | -            | -                | Si         | base_passenger_fare  |
+| peajes                    | Eliminada                                 | -            | -                | Si         | tolls                |
+| impuesto_bcf              | Eliminada                                 | -            | -                | Si         | bcf                  |
+| impuesto_viaje            | Eliminada                                 | -            | -                | Si         | sales_tax            |
+| cargo_congestion          | cargo por congestión                     | float        | cuantitativa     | Si         | congestion_surcharge |
+| cargo_aeropuerto          | Eliminada                                 | -            | -                | No         | airport_fee          |
+| tips                      | Eliminada                                 | -            | -                | Si         | tips                 |
+| pago_total                | pago total del viaje                      | float        | cuantitativa     | Si         | driver_pay           |
+| viaje_compartido_pedido   | se pidió un viaje compartido             | object       | cualitativa      | Si         | shared_request_flag  |
+| viaje_compartido_encontrado| se encontró un viaje compartido          | object       | cualitativa      | Si         | shared_match_flag    |
+| access_a_ride_flag        | Eliminada                                 | -            | -                | Si         | access_a_ride_flag   |
+| accesibilidad_requerida   | se accedió a un viaje                    | object       | cualitativa      | Si         | wav_request_flag     |
+| accesibilidad_espontanea  | se accedió a un viaje para sillas de ruedas | object    | cualitativa      | Si         | wav_match_flag       |
 
 ### Tabla approvedModels (Tabla propia)
 
