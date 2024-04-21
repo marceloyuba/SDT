@@ -24,17 +24,16 @@ Para poder realizar el estudio se tomo como fuente de datos la siguiente página
 
 Este proyecto consta de tres fases principales que se realizan implementando métodologías ágiles como Scrum, realizando reuniones diarias con el Product Manager para debatir los avances y reuniones semanales con el Product Owner para mostrar los entregables a cada fecha. Estas fases se cumplen gracias al equipo de trabajo conformado en los siguientes roles por:
 
-- Cristian Fontanilla - Data Engineer
+- Cristian Fontanilla - Data Scientist
 - Elizabeth Torres - Data Engineer
-- Ingrid Barrios - Data Analyst
 - Marcelo Yuba - Data Analyst
-- Josue Mora - Data Scientist
+
 
 Así que a continuación se explicará que conlleva cada fase de este proyecto, que métodos y herramientas se usaron, y asimismo que análisis se realizaron.
 
 <div align="center">
 
-![Taxis](imagenes/taxis-nueva-york.jpeg)
+![Taxis](imagenes/)
 </div>
 
 ## **Sprint 1**
@@ -101,7 +100,6 @@ En esta última fase se tienen como actividades principales la realización del 
 El dashborad fue realizado en *Power BI*, mostrando de manera interactiva el relacionamiento de los datos de los Taxis de NYC, datos de Uber y de Lyft, con el fin de realizar análisis de competidores. También se encuentran los KPIs debidamente representados para medir los ítems principales del proyecto. 
 
 
-### Streamlit 
 
 
 
