@@ -1,21 +1,8 @@
-
-![rendered image description](imagenes/SDTLogo.png)
-
-# <h1 align="center"> **NYC Autos Greyhound** <br> Proyecto Final </h1>
-
-## ¿Quiénes Somos?
-
-Somos **Strategic Data Transform**, una consultora empresarial, que presta servicios de consultoría tecnológica en el área de Data Science a empresas que quieran cumplir sus objetivos de éxito a partir de los datos.
-
-## Objetivo del Proyecto 
-
-El proyecto esta orientado a realizar un estudio de viabilidad para nuestro cliente Greyhound, quién se encuentra laborando en el sector del transporte con micros de media y larga distancia, y ahora quiere incursionar en el sector de trasnporte de pasajeros en la ciudad de Nueva York con autos que tengan un bajo impacto ambietal.
-
-
 <div align="center">
 
-![Logo_Greyhound](imagenes/logo_greyhound.png)
+![rendered image description](imagenes/readme.jpg)
 </div>
+
 
 Greyhound quiere determinar que tipo de vehículo es el más óptimo para cada destino de viaje y asimismo contar con un estudio que le muestre si la viabilidad de realizar el proyecto con sus requerimientos es positiva, lo que conlleva a que nosotros como consultora hagamos diversos análisis de rentabilidad, impacto ambiental y viabilidad en el mercado de diferentes formas. 
 En este proyecto también se analizará el comportamiento frente a sus competidores directos (Taxis, Uber y Lyft) en la ciudad, lo cual brindará un contexto de análisis mucho más completo y amplio. 
