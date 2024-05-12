@@ -31,6 +31,46 @@
 <br>
 <br>
 
+<h1>Explicacion del negocio de transporte en NYC
+</h1>
+
+<h3>
+La ciudad de Nueva York, para poder controlar el ingreso del trafico a ciertas zonas, ideo el plan de cobrar cargos de congestion, como ya se hizo anteriormente en la ciudad de Londres, de esta manera el impacto ambiental pueda ser reducido, incentivando a la gente a tomar medios de transporte publico para acceder al centro de la ciudad.</h3>
+<h3>Ademas, se establecio que para los ingresos a la ciudad atravez de la red de tuneles y puentes:<br>
+➔	Queensboro Bridge<br>
+➔	Manhattan Bridge<br>
+➔	Brooklyn Bridge.<br>
+➔	Queens Tunnel.<br>
+➔	Abraham Lincoln Tunnel<br>
+➔	Holland Tunnel.<br>
+
+<div align="center">
+  <img src="imagenes/peajes.png" alt="rendered image description" width="500px">
+</div><br>
+
+El cobro de peajes, estos solo aplican a los túneles, no así a los puentes de acceso a la ciudad dentro de la zona de congestión, hay otros puentes con peaje pero no se toman en consideración de momento, estos peajes solo existen en sentido a Manhattan, no asi a New Jersey, que esta libre de cargos.<br>
+Estas son las tarifas que se manejan:<br>
+</h3>
+<div align="center">
+  <img src="imagenes/congestion.png" alt="rendered image description" width="500px">
+</div><br>
+<h3>
+Esta Zona, llamada Congestion zone, se limita desde la calle 60 que es el borde de Central Park, hasta la punta del Downtown Manhattan, en esta zona ademas, se regula que ciertos transportes puedan operar, en este caso, Buses de la MTA, Taxis Amarillos, Uber y Lyft.<br>
+Un caso especial es el de los Taxis Verdes que ingresa poco a la zona de congestión ya que solo puede dejar pasajeros y no recogerlos en la calle, solo si es pedido por teléfono con anterioridad al viaje, rige la misma restricción en los aeropuertos del Tri state (Manhattan, Queens y Brooklyn).<br>
+Los antes mencionados tienen libertad de rocojer y dejar en toda las zonas, ademas, estos son los que estan sujetos a la nueva Ley de reduccion de Co2, que para el 2030, tiene que reducirse un 40% y para el 2050 un 80%.<br>
+Para esto tambien hicimos un analisis ambiental, que nos muestre en comparativa el año 2019 y el 2023, 
+</h3>
+<div align="center">
+  <img src="imagenes/eco.png" alt="rendered image description" width="500px">
+</div><br>
+<h3>Como podemos observar, la firma de Co2 per-capita, disminuyo desde el 2019 al 2023, Esto en parte a promover el uso de vehiculos hibridos y electricos, la Alcaldia de Nueva York, lanzo un plan para poder hacer accesible puntos de carga en todo el Tri-State Area, esto gracias al trabajo en conjunto con diferentes proovedores, siendo el mas grande, Tesla, con su red de cargadores rapidos y super cargadores, que completan una carga en tan solo 30 minutos, de esta manera se quiere lograr llegar a el objetivo para el 2030.<br>
+Aca dejamos una muestra de la red de cargadores disponibles en la ciudad.
+</h3>
+<br>
+<div align="center">
+  <img src="imagenes/carga.png" alt="rendered image description" width="500px">
+</div><br>
+
 <h1><b>Costos de inversión y renovación</h1>
 
 <h3>
@@ -165,18 +205,17 @@ Total de ganancia = $259,253.00<br>
 <br>
 </h3>
 <h1>Conclusiones
-</h1><h3>
-Segun estos calculos, creemos que es absolutamente viable la insercion al mercado de parte de Greyhound al mercado de vehiculos, si bien la recuperacion de capital seria en un plazo de un año, luego puede registrar ganancias de hasta los $700,000.00 mensuales minimamente, el mercado puede cambiar e inclusive segun los meses del año y los puntos a los que apueste la empresa, obtener ganancias de cerca del millon de dolares
+</h1>
+<h3>
+Segun estos calculos, creemos que es absolutamente viable la insercion al mercado de parte de Greyhound al mercado de vehiculos, si bien la recuperacion de capital seria en un plazo de un año, luego puede registrar ganancias de hasta los $700,000.00 mensuales minimamente, el mercado puede cambiar e inclusive segun los meses del año y los puntos a los que apueste la empresa, obtener ganancias de cerca del millon de dolares<br>
+</h3>
+<h1>Recomendaciones
+</h1>
+<h3>
+Una segunda propuesta para la reduccion de costos, seria, tercerizar los vehiculos, invitando a choferes con sus vehiculos particulares, siempre y en tanto respeten la lista de vehiculos aprobados, a que se sumen a la empresa y puedan realizar viajes, estos pagando una comision determinada.<br>
+Una tercera opcion, es proveer los vehiculos a choferes, estos pudiendo optar, por la compra a la empresa de estos vehiculos en cuotas, haciendo un sistema hibrido, donde la empresa y los choferes tienen autos propios.<br>
+Tambien incentivamos a la empresa, la creacion de una aplicacion de Ride-Share como Uber/Lyft, simplemente llamada Greyhound-Ride, donde pueda competir con las mencionadas y ademas pudiendo obtener descuentos por ya ser pasajeros de bus.<br>Ej: Un pasjero llega a la terminal de la calle 8 y al solicitar un viaje en la app, poniendo el numero de pasaje, obtiene el descuento.<br>
+Ademas, se puede vender paquetes, que incluyan el pasaje de bus + el auto con servicio desde su punto de partida al hotel o domicilio del pasajero directo, sin tener que solicitarlo aparte.
 </h3>
 
 
-
-Analisis de Contaminacion
-
-Analisis comparativo entre los 3 analizados
-
-Disponibilidad de Estaciones de carga
-
-Analisis del por que la reducción de contaminacion
-
-Destinos y llegadas mas populares
